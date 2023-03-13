@@ -8,10 +8,102 @@
     display: flex;
 }
 
+.boxed{
+    width: 60%;
+    margin: auto;
+}
+
+/*heaader*/
+
 .header_container{
     width: 100%;
     height: 100px;
     background-color: aqua;
     justify-content: space-between;
     align-items: center;
+    border-bottom: 2px solid gray; /* cambiare con box shadow */
+}
+
+/*main first section*/
+
+.box_titol{
+    background-color: blue;
+    width: 100%;
+    height: 400px;
+    padding: 30px 70px;
+}
+
+
+.first_container{
+    background-color: blue;
+    width: 100%;
+    height: 100%;
+    padding: 30px 70px;
+}
+
+
+.box_titol_left{
+    background-color: brown;
+    width: calc(100% / 3 * 1);
+}
+
+.box_titol_right{
+    background-color: burlywood;
+    width: calc(100% / 3 * 2);
+}
+
+/*main second section*/
+
+
+.plan{
+    width: 100%;
+    height: 900px;
+    background-color: lawngreen;
+    justify-content: space-between;
+}
+
+.left_plan, .center_plan, .right_plan{
+    width: 30%;
+    height: 100%;
+    background-color: aqua;
+}
+
+.enterprice{
+    background-color: cadetblue;
+    border: 1px solid black;
+    
+    margin-top: 30px;
+}
+
+.left_enterprice{
+    background-color: brown;
+    width: 70%;
+    height: 200px;
+}
+
+.right_enterprice{
+    background-color: tan;
+    width: 30%;
+    height: 200px;
+}
+
+/*main third section*/
+
+.dopbox_partner{
+    margin-top: 30px;
+    height: 400px;
+    background-color: blueviolet;
+}
+
+.dopbox_partner_left{
+    width: 60%;
+    height: 100%;
+    background-color: beige;
+}
+
+.dopbox_partner_right{
+    width: 60%;
+    height: 50%;
+    background-color: pink;
+    margin: 40px 0px 0px 20px;
 }
