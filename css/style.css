@@ -14,7 +14,9 @@
 }
 
 /*heaader*/
-
+header{
+    padding-bottom: 100px;
+}
 .header_container{
     width: 100%;
     height: 100px;
@@ -22,6 +24,7 @@
     justify-content: space-between;
     align-items: center;
     border-bottom: 2px solid gray; /* cambiare con box shadow */
+    position: fixed;
 }
 
 /*main first section*/
@@ -102,8 +105,133 @@
 }
 
 .dopbox_partner_right{
-    width: 60%;
+    width: 40%;
     height: 50%;
     background-color: pink;
     margin: 40px 0px 0px 20px;
+}
+
+/*main fourth section*/
+
+.box_operation{
+    margin-top: 30px;
+    background-color: dimgray;
+    height: 800px;
+}
+
+.box_operation_under{
+    width: 100%;
+    background-color: fuchsia;
+    height: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.operation{
+    background-color: antiquewhite;
+    width: calc(100% / 3 - 20px);
+    height: 45%;
+    margin-right: 10px;
+}
+
+.operation_image{
+    width: 100%;
+    height: 40%;
+    background-color: yellow;
+}
+
+/*main fifth section*/
+
+.info_box{
+    margin-top: 50px;
+    height: 200px;
+    background-color: blue;
+}
+
+/*main sixth section*/
+
+.square_container{
+    width: 100%;
+    height: calc(100vh / 2);
+    background-color: aqua;
+}
+
+.square{
+    width: calc(100% / 3);
+    height: 100%;
+    background-color: yellow;
+    border: 1px solid black;
+    flex-wrap: wrap;
+}
+
+.square_image{
+    width: 50%;
+    height: 50%;
+    background-color: blue;
+    border: 1px solid red;
+    position: relative;
+}
+
+.square_logo{
+    background-color: beige;
+    width: 50%;
+    height: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/*main seventh section*/
+
+.free_trial{
+    background-color: azure;
+    width: 100%;
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+}
+
+/*main eighth section*/
+
+.faq_box{
+    line-height: 6em;
+}
+
+/*footer*/
+
+footer{
+    background-color: black;
+}
+
+.footer_box{
+    width: 100%;
+    height: 300px;
+    margin-top: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer_info_box{
+    background-color: aqua;
+    width: 80%;
+    height: 200px;
+    justify-content: space-between;
+}
+
+.footer_info{
+    background-color: fuchsia;
+    width: calc(100% / 5);
+    height: 100%;
+    border: 1px solid black;
+}
+
+.lang{
+    justify-content: center;
+}
+
+.lang_box{
+    width: 80%;
+    background-color: green;
+    margin-bottom: 20px;
 }
