@@ -23,7 +23,10 @@ header{
     background-color: aqua;
     justify-content: space-between;
     align-items: center;
-    border-bottom: 2px solid gray; /* cambiare con box shadow */
+    -webkit-box-shadow: 0px 6px 6px 0px #454545;
+    -moz-box-shadow: 0px 6px 6px 0px #454545;
+    -o-box-shadow: 0px 6px 6px 0px #454545;
+    box-shadow: 0px 6px 6px 0px #454545;
     position: fixed;
     z-index: 2;
 }
