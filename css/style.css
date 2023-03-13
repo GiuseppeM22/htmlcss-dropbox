@@ -25,6 +25,7 @@ header{
     align-items: center;
     border-bottom: 2px solid gray; /* cambiare con box shadow */
     position: fixed;
+    z-index: 2;
 }
 
 /*main first section*/
@@ -162,6 +163,7 @@ header{
     background-color: yellow;
     border: 1px solid black;
     flex-wrap: wrap;
+    z-index: 1;
 }
 
 .square_image{
