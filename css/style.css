@@ -19,12 +19,18 @@ p{
 }
 
 h2{
-    font-size: 40px;
+    font-size: 30px;
+    line-height: 1.4em;
 }
 
 span, p{
     color: #5c656f;
     line-height: 1.5em;
+}
+
+h4{
+    line-height: 1.3em;
+    font-size: 20px;
 }
 
 /*heaader*/
@@ -87,13 +93,13 @@ header a:hover{
     padding-top: 30px;
     padding-left: 80px;
     padding-right: 80px;
-    max-height: 680px;
+    max-height: 650px;
     
     
 }
 
 h1{
-    font-size: 75px;
+    font-size: 60px;
     margin-left: 75px;
     line-height: 1.2em;
     margin-top: 0.5em;
@@ -349,67 +355,86 @@ span strong{
 /*main fourth section*/
 
 .box_operation{
-    margin-top: 30px;
-    background-color: dimgray;
+    margin-top: 100px;
     height: 800px;
 }
 
 .box_operation_under{
     width: 100%;
-    background-color: fuchsia;
     height: 100%;
+    margin-top: 50px;
     flex-wrap: wrap;
     justify-content: center;
 }
 
 .operation{
-    background-color: antiquewhite;
     width: calc(100% / 3 - 20px);
     height: 45%;
     margin-right: 10px;
 }
 
 .operation_image{
-    width: 100%;
-    height: 40%;
-    background-color: yellow;
+    justify-content: center;
+    height: 50%;
+}
+
+.operation_image img{
+    height: 100%;
+}
+
+.operation h4{
+    margin-bottom: 20px;
+}
+
+.operation span{
+    font-size: 12px;
 }
 
 /*main fifth section*/
 
 .info_box{
-    margin-top: 50px;
+    margin-top: 150px;
     height: 200px;
-    background-color: blue;
+}
+
+.info_box div{
+    color: blue;
+    margin-top: 50px;
+    font-size: 14px;
 }
 
 /*main sixth section*/
 
 .square_container{
     width: 100%;
-    height: calc(100vh / 2);
-    background-color: aqua;
+    height: calc(100vw / 3);
 }
 
 .square{
     width: calc(100% / 3);
     height: 100%;
-    background-color: yellow;
-    border: 1px solid black;
     flex-wrap: wrap;
     z-index: 1;
+    overflow-y: auto;
 }
 
 .square_image{
     width: 50%;
     height: 50%;
-    background-color: blue;
-    border: 1px solid red;
     position: relative;
 }
 
+
+.square_image img{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
 .square_logo{
-    background-color: beige;
     width: 50%;
     height: 50%;
     position: absolute;
@@ -418,20 +443,121 @@ span strong{
     transform: translate(-50%, -50%);
 }
 
+.square_logo_1{
+    background-color: #a2d39b;
+    border: 10px solid #d1e9cd;
+} 
+
+.square_logo_2{
+    background-color: #61082b;
+}
+
+.square_logo_3{
+    background-color: #0093ce;
+}
+
+.square_logo_4{
+    background-color: #ff1c1c;
+}
+
+.square_logo_5{
+    background-color: #d5001f;
+} 
+
+.square_logo_6{
+    background-color: #b4d0e7;
+}
+
+.square_logo_7{
+    background-color: #0d2481;
+}
+
+.square_logo_8{
+    background-color: #ffd830;
+}
+
+.center img{
+    width: 200px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.square p{
+    margin-bottom: 30px;
+    margin-top: 30px;
+
+}
+
+.square_center{
+    padding: 0px 30px 0px 30px;
+}
+
+
+
 /*main seventh section*/
+.backcolor{
+    background-color: #b4d0e7;
+
+}
 
 .free_trial{
-    background-color: azure;
-    width: 100%;
     height: 300px;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
+}
+
+.free_trial button{
+    padding: 10px 40px;
+    background-color: white;
+    color: gray;
+    margin-top: 20px;
+    cursor: pointer;
+    border: none;
+}
+
+.free_trial h2{
+    color:#61082b;
 }
 
 /*main eighth section*/
 
 .faq_box{
-    line-height: 6em;
+    margin-top: 150px;
+    line-height: 4em;
+}
+
+.faq{
+    padding: 10px 0px;
+    border-bottom: 1px solid black;
+    
+}
+
+.faq_box h2{
+    border-bottom: 1px solid black;
+    padding-bottom: 50px;
+}
+
+.faq_box span{
+    font-size: 16px;
+    color: #222222;
+}
+
+.faq i{
+    margin-left: 200px;
+}
+
+.faq p{
+    display: none;
+}
+
+.faq:hover p{
+    display: block;
+    font-size: 15px;
+
+}
+
+.faq:hover i{
+    transform: rotate(180deg);
 }
 
 /*footer*/
