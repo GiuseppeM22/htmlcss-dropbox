@@ -418,6 +418,7 @@ span strong{
     overflow-y: auto;
 }
 
+
 .square_image{
     width: 50%;
     height: 50%;
@@ -431,7 +432,7 @@ span strong{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: white;
+    filter: invert(1);
 }
 
 .square_logo{
@@ -575,25 +576,55 @@ footer{
 }
 
 .footer_info_box{
-    background-color: aqua;
     width: 80%;
-    height: 200px;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .footer_info{
-    background-color: fuchsia;
     width: calc(100% / 5);
-    height: 100%;
     border: 1px solid black;
 }
 
+
 .lang{
-    justify-content: center;
+    width: 80%;
+    margin-left: 140px;
 }
 
 .lang_box{
-    width: 80%;
-    background-color: green;
-    margin-bottom: 20px;
+    width: 10%;
+    margin-bottom: 40px;
+    border-top: 0.1px solid white;
+    padding-top: 20px;
 }
+
+.footer_info p{
+    color: white;
+    font-size: 12px;
+    line-height: 2em;
+    cursor: pointer;
+}
+
+.footer_info h4{
+    color: white;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.lang_box i, .lang_box span{
+    color: #5c656f;
+    margin-top: 10px;
+    font-size: 14px;
+    cursor: pointer;
+
+}
+
+.lang_box:hover i, .lang_box:hover span{
+    color: white;
+    margin-top: 10px;
+    font-size: 14px;
+    cursor: pointer;
+
+}
+
+
