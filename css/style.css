@@ -100,7 +100,7 @@ header a:hover{
 
 h1{
     font-size: 60px;
-    margin-left: 75px;
+    margin-left: 80px;
     line-height: 1.2em;
     margin-top: 0.5em;
 }
@@ -114,7 +114,7 @@ h1{
 
 .box_titol_left{
     width: calc(100% / 3 * 1);
-    height: 300px;
+    max-height: 300px;
     padding: 5px;
 }
 
@@ -223,6 +223,20 @@ span strong{
     margin-top: 20px;
 }
 
+.giga{
+    flex-direction: column;
+}
+
+.text_adjust{
+    align-items: baseline;
+}
+
+.text_adjust span{
+    margin-left: 5px;
+}
+
+
+
 .left_plan button{
     padding: 10px 20px;
     background-color: #0061ff;
@@ -248,12 +262,25 @@ span strong{
 .left_plan_padding a{
     color: blue;
 }
+
+.punti_salienti{
+    flex-direction: column;
+}
+
+
 .punti_salienti{
     margin-top: 30px;
 }
 .punti_salienti i{
     margin-top: 20px;
     color: #0047b9;
+}
+
+.gray_line{
+    width: 50px;
+    height: 5px;
+    border-top: 1px solid #686868;
+    margin-top: 30px;
 }
 
 
@@ -611,20 +638,15 @@ footer{
     font-size: 18px;
 }
 
-.lang_box i, .lang_box span{
-    color: #5c656f;
-    margin-top: 10px;
-    font-size: 14px;
-    cursor: pointer;
-
-}
-
-.lang_box:hover i, .lang_box:hover span{
+.lang_box i{
     color: white;
-    margin-top: 10px;
-    font-size: 14px;
-    cursor: pointer;
-
 }
 
+select{
+    background-color: black;
+    width: 80px;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
 
